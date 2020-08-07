@@ -8,6 +8,6 @@ cd unix_workshop
 ```
 
 ### Files included
-Basic .vimrc
-vim.pdf (Personal notes on vim)
-demo.txt file is just a file of text to practice vim
+- Basic .vimrc
+- vim.pdf (Personal notes on vim)
+- demo.txt file is just a file of text to practice vim
