@@ -37,12 +37,6 @@ set backspace=indent,eol,start
 set noswapfile
 set virtualedit=block
 
-" Save cursor position
-autocmd BufReadPost
-      \ if line("'\"") > 0 && line("'\"") <= line("$") |
-      \   exe "normal! g`\""|
-      \ endif
-
 " Mapping jk to normal mode
 inoremap jk <esc>
 
@@ -61,9 +55,6 @@ nnoremap <C-Up> :resize +2 <CR>
 nnoremap <C-Down> :resize -2 <CR>
 nnoremap <C-Left> :vertical resize +2 <CR>
 nnoremap <C-Right> :vertical resize -2 <CR>
-
-" No highlight
-nmap <leader><leader> :noh <CR>
 
 " Paste mode toggle
 set pastetoggle=<F12>
