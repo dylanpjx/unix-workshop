@@ -21,7 +21,7 @@ set expandtab
 set splitbelow
 set splitright
 
-" config for : 
+" config for search 
 set ignorecase smartcase
 set ttimeoutlen=0
 set incsearch
