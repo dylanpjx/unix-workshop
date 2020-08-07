@@ -1,8 +1,8 @@
 set nocompatible
 let mapleader=" "
 
-" relative numbers
-set rnu
+" relative numbers + numbers
+set rnu nu
 
 " tab support for :
 set showcmd
