@@ -29,6 +29,10 @@ set incsearch
 " mouse support
 set mouse=a
 
+" syntax
+syntax enable
+syntax on
+
 set backspace=indent,eol,start
 set noswapfile
 set virtualedit=block
