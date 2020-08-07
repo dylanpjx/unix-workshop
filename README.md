@@ -1,4 +1,4 @@
-# unix_workshop
+# nus_unix_workshop_2020
 
 ### Installation instructions
 
