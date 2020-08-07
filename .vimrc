@@ -2,7 +2,7 @@ set nocompatible
 let mapleader=" "
 
 " relative numbers
-set rnu
+set rnu nu
 
 " tab support for :
 set showcmd
