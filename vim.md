@@ -49,7 +49,7 @@ _In normal mode_
 6. `b` => jump from word to word **b** (!!)
 7. `e` => jump from **e**nd of word to **e**nd of word
 8. `/` or `?` => forward or backward search (!!)
-9. `f` => **f**ind first occurrence of character (!!)
+9. `f` or `t` => **f**ind first occurrence of character, `dte` (!!)
 10. `zt`, `zz`, `zb` => scroll to top, middle, bottom (!!)
 11. `hjkl` => HIGHLY UNRECOMMENDED (AND NO ARROW KEYS AS WELL)
 
