@@ -1,11 +1,11 @@
-# nus_unix_workshop_2020
+# unix-workshop
 
 ### Installation instructions
 
 ```
 cd {dir}
-git clone https://github.com/dylanpjx/unix_workshop.git
-cd unix_workshop
+git clone https://github.com/dylanpjx/unix-workshop.git
+cd unix-workshop
 ```
 
 ### Files included
