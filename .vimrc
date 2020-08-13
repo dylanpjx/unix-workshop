@@ -61,3 +61,6 @@ set pastetoggle=<F12>
 
 " Turn off search highlighting
 nnoremap <leader><leader> :nohl<CR>
+
+" Source vimrc
+nnoremap \r :source $MYVIMRC <CR>
