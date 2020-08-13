@@ -1,4 +1,7 @@
 # unix-workshop
+### For tutors
+To change the notes, edit vim.md to your liking (Every header is one slide in pdf)  
+Recompile using `pandoc -t beamer vim.md -o vim.pdf`
 
 ### Installation instructions
 
