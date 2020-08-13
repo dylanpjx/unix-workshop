@@ -28,10 +28,19 @@ set hlsearch
 " mouse support
 set mouse=a
 
-" syntax
-syntax enable
+" dark theme in Vim
 syntax on
+set background=dark
+set t_Co=256
 
+" Bracket Colours
+hi MatchParen cterm=underline ctermbg=none ctermfg=yellow
+
+" Show block cursor in Normal mode and line cursor in Insert mode
+let &t_ti.="\e[0 q"
+let &t_SI.="\e[6 q"
+let &t_EI.="\e[0 q"
+let &t_te.="\e[0 q"
 set backspace=indent,eol,start
 set noswapfile
 set virtualedit=block
