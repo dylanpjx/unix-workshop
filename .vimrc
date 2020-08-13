@@ -23,8 +23,7 @@ set splitright
 
 " config for search 
 set ignorecase smartcase
-set ttimeoutlen=0
-set incsearch
+set hlsearch
 
 " mouse support
 set mouse=a
@@ -36,6 +35,7 @@ syntax on
 set backspace=indent,eol,start
 set noswapfile
 set virtualedit=block
+set notimeout ttimeout ttimeoutlen=200
 
 " Mapping jk to normal mode
 inoremap jk <esc>
@@ -58,3 +58,6 @@ nnoremap <C-Right> :vertical resize -2 <CR>
 
 " Paste mode toggle
 set pastetoggle=<F12>
+
+" Turn off search highlighting
+nnoremap <leader><leader> :nohl<CR>
