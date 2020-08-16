@@ -5,8 +5,7 @@ Recompile using `pandoc -t beamer vim.md -o vim.pdf`
 
 ### Installation instructions
 
-```
-cd {dir}
+```sh
 git clone https://github.com/dylanpjx/unix-workshop.git
 cd unix-workshop
 ```
