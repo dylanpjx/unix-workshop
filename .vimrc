@@ -50,10 +50,10 @@ set notimeout ttimeout ttimeoutlen=200
 inoremap jk <esc>
 
 " Split navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
 
 " Switch tabs
 nnoremap H gT
@@ -64,6 +64,9 @@ nnoremap <C-Up> :resize +2 <CR>
 nnoremap <C-Down> :resize -2 <CR>
 nnoremap <C-Left> :vertical resize +2 <CR>
 nnoremap <C-Right> :vertical resize -2 <CR>
+
+" Default behaviour for "Y"
+nnoremap Y y$
 
 " Paste mode toggle
 set pastetoggle=<F12>
