@@ -36,7 +36,7 @@ You have mastered all basic vim operators. Your mind and hands are now one. Wher
 
 # Search and replace
 
-- `:%s/{foo}/{bar}/g` => looks through the entire file and [subsitutes](https://vim.fandom.com/wiki/Search_and_replace) `foo` for `bar`
+- `:%s/{foo}/{bar}/g` => [**s**earches](https://vim.fandom.com/wiki/Search_and_replace) entire file for `foo` and **r**eplaces ALL `foo` with `bar`
 
 # Auto completion in vim
 
@@ -46,7 +46,7 @@ You have mastered all basic vim operators. Your mind and hands are now one. Wher
 
 - `q a(A)-z(Z)` => records a sequence of keystrokes
 - Hit `q` again to stop the recording
-- Execute your [macros](https://vim.fandom.com/wiki/Macros) by using `@ a(A)-z(Z)`
+- `@ a(A)-z(Z)` => execute your [macros](https://vim.fandom.com/wiki/Macros)
 
 # Keymaps
 
