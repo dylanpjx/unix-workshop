@@ -54,6 +54,13 @@ You have mastered all basic vim operators. Your mind and hands are now one. Wher
 - `map`, `imap`, `nmap` or `vmap`
 - `noremap`, `inoremap`, `nnoremap` or `vnoremap`
 
+# Plugins
+
+- Google "Best vim plugins" and you will find a million blog posts
+- Default vim can do 99% of what you really need
+- CoC.nvim (Auto completion)
+- Fzf.vim (Fast search)
+
 # Slides here
 
 [Link](https://github.com/dylanpjx/unix-workshop)
