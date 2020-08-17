@@ -54,18 +54,6 @@ You have mastered all basic vim operators. Your mind and hands are now one. Wher
 - `map`, `imap`, `nmap` or `vmap`
 - `noremap`, `inoremap`, `nnoremap` or `vnoremap`
 
-# Popular vim plugins (Don't use until you are comfortable with base vim)
-
-Plugin manager: Vim plugged
-
-- easymotion
-- coc.nvim
-- goyo
-- indentLine
-- vim surround
-- autopair
-- NerdTree/Ctrl-P/netrw
-
 # Slides here
 
 [Link](https://github.com/dylanpjx/unix-workshop)
