@@ -19,8 +19,8 @@ You have mastered all basic vim operators. Your mind and hands are now one. Wher
 - `zt`, `zz`, `zb` => scroll to top, middle, bottom
 - `CTRL-u/CTRL-d` => **u**p/**d**own half a page
 - `CTRL-f/CTRL-b` => **f**orward/**b**ackward one page
-- `m a(A)-z(Z)` => [**m**arks](https://vim.fandom.com/wiki/Using_marks) current cursor location
-- `' a(A)-z(Z)` => jumps to the marks made above
+- `m {char}` => [**m**arks](https://vim.fandom.com/wiki/Using_marks) current cursor location
+- `' {char}` => jumps to the marks made above
 
 # "Alt-tabbing" between terminal and vim
 
