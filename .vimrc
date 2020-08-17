@@ -23,6 +23,7 @@ set splitright
 
 " config for search 
 set ignorecase smartcase
+set incsearch
 set hlsearch
 
 " mouse support
