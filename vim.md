@@ -75,6 +75,8 @@ Eg. `y t j` => yank to first j
 - `:wq` or `ZZ` => save and quit
 - `:q!` or `ZQ` => quit without saving
 
-# Slides here
+# How to learn?
 
-[Link](https://github.com/dylanpjx/unix-workshop)
+- `$ vimtutor` => Highly recommended
+- Pin cheatsheet on your browser or pdf reader
+- Write post-its and paste under your monitor

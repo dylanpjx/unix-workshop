@@ -14,6 +14,12 @@ urlcolor: blue
 
 You have mastered all basic vim operators. Your mind and hands are now one. Where do you go from here??
 
+# .vimrc
+
+- [Config](https://github.com/dylanpjx/unix-workshop/blob/master/.vimrc) file for vim
+- Put `.vimrc` into `~`
+- Google for more options
+
 # Fast movement
 
 - `zt`, `zz`, `zb` => scroll to top, middle, bottom
@@ -47,20 +53,10 @@ You have mastered all basic vim operators. Your mind and hands are now one. Wher
 - `q a(A)-z(Z)` => records a sequence of keystrokes
 - Hit `q` again to stop the recording
 - `@ a(A)-z(Z)` => execute your [macros](https://vim.fandom.com/wiki/Macros)
+- `.` => repeat last command
 
 # Keymaps
 
 - In your .vimrc, you can add
 - `map`, `imap`, `nmap` or `vmap`
 - `noremap`, `inoremap`, `nnoremap` or `vnoremap`
-
-# Plugins
-
-- Google "Best vim plugins" and you will find a million blog posts
-- Default vim can do 99% of what you really need
-- CoC.nvim (Auto completion)
-- Fzf.vim (Fast search)
-
-# Slides here
-
-[Link](https://github.com/dylanpjx/unix-workshop)
