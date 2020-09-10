@@ -77,3 +77,7 @@ nnoremap <leader><leader> :nohl<CR>
 
 " Source vimrc
 nnoremap \r :source $MYVIMRC <CR>
+
+" Autopair braces 
+inoremap { {<CR>}<esc>O
+inoremap {{ {
